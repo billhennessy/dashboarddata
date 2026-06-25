@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dealer Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; }
+        .navbar { background: #333; color: white; padding: 15px; text-align: center; }
+        .nav-links { margin: 10px 0; }
+        .nav-links a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .container { max-width: 1200px; margin: 20px auto; padding: 20px; }
+        .dashboard { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 20px; }
+        .card { background: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); padding: 20px; text-align: center; }
+        .card h2 { margin: 10px 0; color: #333; }
+        .card a { display: inline-block; margin-top: 15px; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; }
+        .download-btn { background: #28a745; }
+        footer { text-align: center; padding: 10px; color: #666; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Dealer Performance Dashboard</h1>
+        <div class="nav-links">
+            <a href="pro-perks-record.html">Pro Perks Contractor</a>
+            <a href="premier-security-record.html">Premier Security Dealer</a>
+            <a href="premier-comfort-record.html">Premier Comfort Contractor</a>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h2 style="text-align: center;">Quick Access</h2>
+        <div class="dashboard">
+            <div class="card">
+                <h2>Pro Perks Contractor</h2>
+                <p>Current Tier: Silver</p>
+                <a href="pro-perks-record.html">View Details</a>
+                
+            </div>
+            <div class="card">
+                <h2>Premier Security Dealer</h2>
+                <p>Percent Back: 0</p>
+                <a href="premier-security-record.html">View Details</a>
+                
+            </div>
+            <div class="card">
+                <h2>Premier Comfort Contractor</h2>
+                <p>Percent Back: 4</p>
+                <a href="premier-comfort-record.html">View Details</a>
+               
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        Last Updated: 2026-06-24 | All records viewable and downloadable
+    </footer>
+</body>
+</html>
